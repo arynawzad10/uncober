@@ -1,0 +1,23 @@
+var obj = JSON.parse($response.body);
+
+obj= {
+  "logId": "7774486667223698869",
+  "code": 1,
+  "message": "success",
+  "data": {
+    "orders": {
+      "420000796309236": {
+        "code": 5002,
+        "type": 4,
+        "productId": "com.supa.splash.1year",
+        "startTime": 1609510137000,
+        "endTime": 1609769337000
+      }
+    },
+    "serverTime": 1609510184691
+  }
+}
+}
+};
+
+$done({body: JSON.stringify(obj)});
