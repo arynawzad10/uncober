@@ -16,7 +16,6 @@ obj= {
     },
     "serverTime": 1609510184691
   }
-}
 };
 
 $done({body: JSON.stringify(obj)});
