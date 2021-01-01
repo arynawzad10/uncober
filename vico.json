@@ -1,20 +1,18 @@
 var obj = JSON.parse($response.body);
 
 obj= {
-  "logId": "7774486667223698869",
-  "code": 1,
-  "message": "success",
-  "data": {
-    "orders": {
-      "420000796309236": {
-        "code": 5002,
-        "type": 4,
-        "productId": "com.supa.splash.1year",
-        "startTime": 1609510137000,
-        "endTime": 1609769337000
-      }
-    },
-    "serverTime": 1609510184691
+  "fullRefundDateMs": null,
+  "isExpired": false,
+  "latestExpirationDateMs": 1609795201000,
+  "latestProductId": "com.lightricks.EnlightVideo_V2.PJ.1Y.SA_1Y.SA_TRIAL.3D",
+  "latestPurchaseDateMs": 1609536001000,
+  "latestTransactionId": "420000796587198",
+  "originalPurchaseDateMs": 1609536002000,
+  "originalTransactionId": "420000796587198",
+  "pendingRenewalInfo": {
+    "expirationIntent": null,
+    "isAutoRenewEnabled": true,
+    "nextProductId": "com.lightricks.EnlightVideo_V2.PJ.1Y.SA_1Y.SA_TRIAL.3D"
   }
 };
 
